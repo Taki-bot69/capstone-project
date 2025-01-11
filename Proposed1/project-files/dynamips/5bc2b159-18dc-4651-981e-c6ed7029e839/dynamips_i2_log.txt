@@ -1,0 +1,10 @@
+Jan 04 17:51:21.480 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 04 17:51:21.481 HYPERVISOR: Started on IP = localhost, TCP port = 52411.
+Jan 04 17:51:21.988 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 04 17:51:21.995 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips 
+Jan 04 17:51:21.995 GENERAL: working_dir=C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips
+Jan 04 17:51:21.995 HYPERVISOR: exec_cmd: ethsw create BULWAGAN 
+Jan 04 17:51:37.765 HYPERVISOR: exec_cmd: ethsw delete BULWAGAN 
+Jan 04 17:51:37.770 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 04 17:51:37.827 HYPERVISOR: Stopped.
+Jan 04 17:51:37.827 GENERAL: reset done.

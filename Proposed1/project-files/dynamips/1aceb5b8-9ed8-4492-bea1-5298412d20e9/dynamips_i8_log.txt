@@ -1,0 +1,35 @@
+Jan 04 17:51:24.503 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 04 17:51:24.504 HYPERVISOR: Started on IP = localhost, TCP port = 52442.
+Jan 04 17:51:25.010 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 04 17:51:25.010 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips 
+Jan 04 17:51:25.010 GENERAL: working_dir=C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips
+Jan 04 17:51:25.010 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips\421ca464-55f7-438f-a3de-b5d248f33e26 
+Jan 04 17:51:25.010 GENERAL: working_dir=C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips\421ca464-55f7-438f-a3de-b5d248f33e26
+Jan 04 17:51:25.010 HYPERVISOR: exec_cmd: vm create INFORMATION 5 c7200 
+Jan 04 17:51:25.012 VM: VM INFORMATION created.
+Jan 04 17:51:25.012 HYPERVISOR: exec_cmd: vm set_con_tcp_port INFORMATION 5098 
+Jan 04 17:51:25.013 HYPERVISOR: exec_cmd: c7200 get_mac_addr INFORMATION 
+Jan 04 17:51:25.013 HYPERVISOR: exec_cmd: vm get_status INFORMATION 
+Jan 04 17:51:25.013 HYPERVISOR: exec_cmd: vm slot_add_binding INFORMATION 0 0 C7200-IO-FE 
+Jan 04 17:51:25.014 HYPERVISOR: exec_cmd: vm set_disk0 INFORMATION 0 
+Jan 04 17:51:25.014 HYPERVISOR: exec_cmd: vm set_exec_area INFORMATION 64 
+Jan 04 17:51:25.015 HYPERVISOR: exec_cmd: vm set_ios INFORMATION C:/Users/LENOVO/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Jan 04 17:51:25.015 HYPERVISOR: exec_cmd: c7200 set_mac_addr INFORMATION ca05.4f4c.0000 
+Jan 04 17:51:25.016 HYPERVISOR: exec_cmd: vm set_nvram INFORMATION 512 
+Jan 04 17:51:25.016 HYPERVISOR: exec_cmd: vm set_ram INFORMATION 512 
+Jan 04 17:51:25.016 HYPERVISOR: exec_cmd: vm get_status INFORMATION 
+Jan 04 17:51:25.016 HYPERVISOR: exec_cmd: vm slot_remove_binding INFORMATION 0 0 
+Jan 04 17:51:25.017 HYPERVISOR: exec_cmd: vm get_status INFORMATION 
+Jan 04 17:51:25.017 HYPERVISOR: exec_cmd: vm slot_add_binding INFORMATION 0 0 C7200-IO-2FE 
+Jan 04 17:51:30.729 HYPERVISOR: exec_cmd: nio create_udp udp-57700d74-9b12-44f6-9cfd-e4d688693336 10046 127.0.0.1 10047 
+Jan 04 17:51:30.987 HYPERVISOR: exec_cmd: vm slot_add_nio_binding INFORMATION 0 1 udp-57700d74-9b12-44f6-9cfd-e4d688693336 
+Jan 04 17:51:30.987 HYPERVISOR: exec_cmd: vm get_status INFORMATION 
+Jan 04 17:51:37.731 HYPERVISOR: exec_cmd: vm get_status INFORMATION 
+Jan 04 17:51:37.733 HYPERVISOR: exec_cmd: vm extract_config INFORMATION 
+Jan 04 17:51:38.027 HYPERVISOR: exec_cmd: vm get_status INFORMATION 
+Jan 04 17:51:38.028 HYPERVISOR: exec_cmd: vm extract_config INFORMATION 
+Jan 04 17:51:38.028 HYPERVISOR: exec_cmd: vm delete INFORMATION 
+Jan 04 17:51:38.028 VM: VM INFORMATION destroyed.
+Jan 04 17:51:38.030 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 04 17:51:38.293 HYPERVISOR: Stopped.
+Jan 04 17:51:38.293 GENERAL: reset done.

@@ -1,0 +1,22 @@
+Jan 04 17:51:22.051 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 04 17:51:22.052 HYPERVISOR: Started on IP = localhost, TCP port = 52414.
+Jan 04 17:51:22.560 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 04 17:51:22.560 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips 
+Jan 04 17:51:22.560 GENERAL: working_dir=C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips
+Jan 04 17:51:22.560 HYPERVISOR: exec_cmd: ethsw create COMMANDCENTER 
+Jan 04 17:51:29.295 HYPERVISOR: exec_cmd: nio create_udp udp-556887d4-8b08-40e0-808c-7a035d4947c5 10009 127.0.0.1 10008 
+Jan 04 17:51:29.296 HYPERVISOR: exec_cmd: ethsw add_nio COMMANDCENTER udp-556887d4-8b08-40e0-808c-7a035d4947c5 
+Jan 04 17:51:29.303 HYPERVISOR: exec_cmd: ethsw set_access_port COMMANDCENTER udp-556887d4-8b08-40e0-808c-7a035d4947c5 1 
+Jan 04 17:51:29.356 HYPERVISOR: exec_cmd: nio create_udp udp-82797dbc-133b-46b4-a8cd-976b9ba4f24a 10011 127.0.0.1 10010 
+Jan 04 17:51:29.357 HYPERVISOR: exec_cmd: ethsw add_nio COMMANDCENTER udp-82797dbc-133b-46b4-a8cd-976b9ba4f24a 
+Jan 04 17:51:29.366 HYPERVISOR: exec_cmd: ethsw set_access_port COMMANDCENTER udp-82797dbc-133b-46b4-a8cd-976b9ba4f24a 1 
+Jan 04 17:51:29.421 HYPERVISOR: exec_cmd: nio create_udp udp-55438fec-06d6-4e57-a433-a2c94c4d8a6f 10013 127.0.0.1 10012 
+Jan 04 17:51:29.421 HYPERVISOR: exec_cmd: ethsw add_nio COMMANDCENTER udp-55438fec-06d6-4e57-a433-a2c94c4d8a6f 
+Jan 04 17:51:29.428 HYPERVISOR: exec_cmd: ethsw set_access_port COMMANDCENTER udp-55438fec-06d6-4e57-a433-a2c94c4d8a6f 1 
+Jan 04 17:51:33.160 HYPERVISOR: exec_cmd: nio create_udp udp-aca699f5-168b-4dbd-bd36-d3d6efd28169 10096 127.0.0.1 10097 
+Jan 04 17:51:33.161 HYPERVISOR: exec_cmd: ethsw add_nio COMMANDCENTER udp-aca699f5-168b-4dbd-bd36-d3d6efd28169 
+Jan 04 17:51:33.170 HYPERVISOR: exec_cmd: ethsw set_access_port COMMANDCENTER udp-aca699f5-168b-4dbd-bd36-d3d6efd28169 1 
+Jan 04 17:51:37.755 HYPERVISOR: exec_cmd: ethsw delete COMMANDCENTER 
+Jan 04 17:51:37.859 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 04 17:51:37.889 HYPERVISOR: Stopped.
+Jan 04 17:51:37.889 GENERAL: reset done.

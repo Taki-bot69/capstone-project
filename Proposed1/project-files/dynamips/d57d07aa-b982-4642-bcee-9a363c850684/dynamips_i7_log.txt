@@ -1,0 +1,35 @@
+Jan 04 17:51:23.933 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 04 17:51:23.934 HYPERVISOR: Started on IP = localhost, TCP port = 52439.
+Jan 04 17:51:24.434 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 04 17:51:24.434 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips 
+Jan 04 17:51:24.435 GENERAL: working_dir=C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips
+Jan 04 17:51:24.435 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips\84e8f3ef-4733-4080-be6d-6638940560c5 
+Jan 04 17:51:24.435 GENERAL: working_dir=C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips\84e8f3ef-4733-4080-be6d-6638940560c5
+Jan 04 17:51:24.435 HYPERVISOR: exec_cmd: vm create R3 3 c7200 
+Jan 04 17:51:24.436 VM: VM R3 created.
+Jan 04 17:51:24.437 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5096 
+Jan 04 17:51:24.437 HYPERVISOR: exec_cmd: c7200 get_mac_addr R3 
+Jan 04 17:51:24.437 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 04 17:51:24.437 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-FE 
+Jan 04 17:51:24.438 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Jan 04 17:51:24.438 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Jan 04 17:51:24.439 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/LENOVO/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Jan 04 17:51:24.439 HYPERVISOR: exec_cmd: c7200 set_mac_addr R3 ca03.45c8.0000 
+Jan 04 17:51:24.440 HYPERVISOR: exec_cmd: vm set_nvram R3 512 
+Jan 04 17:51:24.440 HYPERVISOR: exec_cmd: vm set_ram R3 512 
+Jan 04 17:51:24.441 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 04 17:51:24.441 HYPERVISOR: exec_cmd: vm slot_remove_binding R3 0 0 
+Jan 04 17:51:24.441 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 04 17:51:24.441 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-2FE 
+Jan 04 17:51:33.504 HYPERVISOR: exec_cmd: nio create_udp udp-263eaa3b-0506-4147-895b-fa67751642c9 10102 127.0.0.1 10103 
+Jan 04 17:51:33.775 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 1 udp-263eaa3b-0506-4147-895b-fa67751642c9 
+Jan 04 17:51:33.775 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 04 17:51:37.724 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 04 17:51:37.725 HYPERVISOR: exec_cmd: vm extract_config R3 
+Jan 04 17:51:38.289 HYPERVISOR: exec_cmd: vm get_status R3 
+Jan 04 17:51:38.289 HYPERVISOR: exec_cmd: vm extract_config R3 
+Jan 04 17:51:38.290 HYPERVISOR: exec_cmd: vm delete R3 
+Jan 04 17:51:38.290 VM: VM R3 destroyed.
+Jan 04 17:51:38.291 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 04 17:51:38.747 HYPERVISOR: Stopped.
+Jan 04 17:51:38.747 GENERAL: reset done.

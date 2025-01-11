@@ -1,0 +1,25 @@
+Jan 04 17:51:21.155 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 04 17:51:21.156 HYPERVISOR: Started on IP = localhost, TCP port = 52403.
+Jan 04 17:51:21.387 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 04 17:51:21.387 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips 
+Jan 04 17:51:21.393 GENERAL: working_dir=C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips
+Jan 04 17:51:21.394 HYPERVISOR: exec_cmd: ethsw create OFFICEOFPUNONGBARANGAY/SECRETARY 
+Jan 04 17:51:29.042 HYPERVISOR: exec_cmd: nio create_udp udp-aed3a732-3b91-4890-84ff-004f5a82b541 10001 127.0.0.1 10000 
+Jan 04 17:51:29.043 HYPERVISOR: exec_cmd: ethsw add_nio OFFICEOFPUNONGBARANGAY/SECRETARY udp-aed3a732-3b91-4890-84ff-004f5a82b541 
+Jan 04 17:51:29.055 HYPERVISOR: exec_cmd: ethsw set_access_port OFFICEOFPUNONGBARANGAY/SECRETARY udp-aed3a732-3b91-4890-84ff-004f5a82b541 1 
+Jan 04 17:51:29.114 HYPERVISOR: exec_cmd: nio create_udp udp-d0bd40d3-90c4-4c7a-b974-30205fab0351 10003 127.0.0.1 10002 
+Jan 04 17:51:29.115 HYPERVISOR: exec_cmd: ethsw add_nio OFFICEOFPUNONGBARANGAY/SECRETARY udp-d0bd40d3-90c4-4c7a-b974-30205fab0351 
+Jan 04 17:51:29.117 HYPERVISOR: exec_cmd: ethsw set_access_port OFFICEOFPUNONGBARANGAY/SECRETARY udp-d0bd40d3-90c4-4c7a-b974-30205fab0351 1 
+Jan 04 17:51:29.173 HYPERVISOR: exec_cmd: nio create_udp udp-eb30d4ab-c34d-47ae-b537-fdf7a0e75be1 10005 127.0.0.1 10004 
+Jan 04 17:51:29.173 HYPERVISOR: exec_cmd: ethsw add_nio OFFICEOFPUNONGBARANGAY/SECRETARY udp-eb30d4ab-c34d-47ae-b537-fdf7a0e75be1 
+Jan 04 17:51:29.178 HYPERVISOR: exec_cmd: ethsw set_access_port OFFICEOFPUNONGBARANGAY/SECRETARY udp-eb30d4ab-c34d-47ae-b537-fdf7a0e75be1 1 
+Jan 04 17:51:29.232 HYPERVISOR: exec_cmd: nio create_udp udp-f4cf5ff9-7220-4b38-9ec7-7f0f3d4d5b28 10007 127.0.0.1 10006 
+Jan 04 17:51:29.232 HYPERVISOR: exec_cmd: ethsw add_nio OFFICEOFPUNONGBARANGAY/SECRETARY udp-f4cf5ff9-7220-4b38-9ec7-7f0f3d4d5b28 
+Jan 04 17:51:29.241 HYPERVISOR: exec_cmd: ethsw set_access_port OFFICEOFPUNONGBARANGAY/SECRETARY udp-f4cf5ff9-7220-4b38-9ec7-7f0f3d4d5b28 1 
+Jan 04 17:51:33.781 HYPERVISOR: exec_cmd: nio create_udp udp-0d420298-ccf8-41e4-8c01-d9d0e495a37a 10101 127.0.0.1 10100 
+Jan 04 17:51:33.782 HYPERVISOR: exec_cmd: ethsw add_nio OFFICEOFPUNONGBARANGAY/SECRETARY udp-0d420298-ccf8-41e4-8c01-d9d0e495a37a 
+Jan 04 17:51:33.790 HYPERVISOR: exec_cmd: ethsw set_access_port OFFICEOFPUNONGBARANGAY/SECRETARY udp-0d420298-ccf8-41e4-8c01-d9d0e495a37a 1 
+Jan 04 17:51:37.757 HYPERVISOR: exec_cmd: ethsw delete OFFICEOFPUNONGBARANGAY/SECRETARY 
+Jan 04 17:51:37.890 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 04 17:51:38.262 HYPERVISOR: Stopped.
+Jan 04 17:51:38.262 GENERAL: reset done.

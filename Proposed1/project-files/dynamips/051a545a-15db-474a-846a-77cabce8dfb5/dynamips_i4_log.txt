@@ -1,0 +1,43 @@
+Jan 04 17:51:22.690 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 04 17:51:22.691 HYPERVISOR: Started on IP = localhost, TCP port = 52430.
+Jan 04 17:51:23.196 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 04 17:51:23.196 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips 
+Jan 04 17:51:23.197 GENERAL: working_dir=C:\Users\LENOVO\Downloads\Capstone\Capstone\project-files\dynamips
+Jan 04 17:51:23.197 HYPERVISOR: exec_cmd: ethsw create SK/MANCOM/BCPC 
+Jan 04 17:51:32.379 HYPERVISOR: exec_cmd: nio create_udp udp-5bb86a94-14ce-4b4d-be0a-e0d5041a58dc 10073 127.0.0.1 10072 
+Jan 04 17:51:32.379 HYPERVISOR: exec_cmd: ethsw add_nio SK/MANCOM/BCPC udp-5bb86a94-14ce-4b4d-be0a-e0d5041a58dc 
+Jan 04 17:51:32.404 HYPERVISOR: exec_cmd: ethsw set_access_port SK/MANCOM/BCPC udp-5bb86a94-14ce-4b4d-be0a-e0d5041a58dc 1 
+Jan 04 17:51:32.456 HYPERVISOR: exec_cmd: nio create_udp udp-f9e4d590-acf8-4647-9636-52e598fe7bc3 10076 127.0.0.1 10077 
+Jan 04 17:51:32.456 HYPERVISOR: exec_cmd: ethsw add_nio SK/MANCOM/BCPC udp-f9e4d590-acf8-4647-9636-52e598fe7bc3 
+Jan 04 17:51:32.464 HYPERVISOR: exec_cmd: ethsw set_access_port SK/MANCOM/BCPC udp-f9e4d590-acf8-4647-9636-52e598fe7bc3 1 
+Jan 04 17:51:32.523 HYPERVISOR: exec_cmd: nio create_udp udp-1750278f-63dc-4e0f-b4ee-afa9bdf2e992 10078 127.0.0.1 10079 
+Jan 04 17:51:32.524 HYPERVISOR: exec_cmd: ethsw add_nio SK/MANCOM/BCPC udp-1750278f-63dc-4e0f-b4ee-afa9bdf2e992 
+Jan 04 17:51:32.528 HYPERVISOR: exec_cmd: ethsw set_access_port SK/MANCOM/BCPC udp-1750278f-63dc-4e0f-b4ee-afa9bdf2e992 1 
+Jan 04 17:51:32.589 HYPERVISOR: exec_cmd: nio create_udp udp-54ead951-a13d-4bd1-8ebf-56428e326df6 10080 127.0.0.1 10081 
+Jan 04 17:51:32.589 HYPERVISOR: exec_cmd: ethsw add_nio SK/MANCOM/BCPC udp-54ead951-a13d-4bd1-8ebf-56428e326df6 
+Jan 04 17:51:32.591 HYPERVISOR: exec_cmd: ethsw set_access_port SK/MANCOM/BCPC udp-54ead951-a13d-4bd1-8ebf-56428e326df6 1 
+Jan 04 17:51:32.654 HYPERVISOR: exec_cmd: nio create_udp udp-8a0e7e94-457a-4a25-af61-00b81a867c79 10082 127.0.0.1 10083 
+Jan 04 17:51:32.654 HYPERVISOR: exec_cmd: ethsw add_nio SK/MANCOM/BCPC udp-8a0e7e94-457a-4a25-af61-00b81a867c79 
+Jan 04 17:51:32.686 HYPERVISOR: exec_cmd: ethsw set_access_port SK/MANCOM/BCPC udp-8a0e7e94-457a-4a25-af61-00b81a867c79 1 
+Jan 04 17:51:32.745 HYPERVISOR: exec_cmd: nio create_udp udp-55031ecd-0229-449a-8442-025942ebc862 10084 127.0.0.1 10085 
+Jan 04 17:51:32.746 HYPERVISOR: exec_cmd: ethsw add_nio SK/MANCOM/BCPC udp-55031ecd-0229-449a-8442-025942ebc862 
+Jan 04 17:51:32.747 HYPERVISOR: exec_cmd: ethsw set_access_port SK/MANCOM/BCPC udp-55031ecd-0229-449a-8442-025942ebc862 1 
+Jan 04 17:51:32.807 HYPERVISOR: exec_cmd: nio create_udp udp-89706c5c-01de-4057-94c8-39a4cb0deb27 10086 127.0.0.1 10087 
+Jan 04 17:51:32.807 HYPERVISOR: exec_cmd: ethsw add_nio SK/MANCOM/BCPC udp-89706c5c-01de-4057-94c8-39a4cb0deb27 
+Jan 04 17:51:32.811 HYPERVISOR: exec_cmd: ethsw set_access_port SK/MANCOM/BCPC udp-89706c5c-01de-4057-94c8-39a4cb0deb27 1 
+Jan 04 17:51:32.870 HYPERVISOR: exec_cmd: nio create_udp udp-0bedf936-d593-464b-91ba-1141b952d625 10088 127.0.0.1 10089 
+Jan 04 17:51:32.870 HYPERVISOR: exec_cmd: ethsw add_nio SK/MANCOM/BCPC udp-0bedf936-d593-464b-91ba-1141b952d625 
+Jan 04 17:51:32.874 HYPERVISOR: exec_cmd: ethsw set_access_port SK/MANCOM/BCPC udp-0bedf936-d593-464b-91ba-1141b952d625 1 
+Jan 04 17:51:32.933 HYPERVISOR: exec_cmd: nio create_udp udp-810c9cc6-6c02-48b1-9af9-d55978cc1ae1 10090 127.0.0.1 10091 
+Jan 04 17:51:32.934 HYPERVISOR: exec_cmd: ethsw add_nio SK/MANCOM/BCPC udp-810c9cc6-6c02-48b1-9af9-d55978cc1ae1 
+Jan 04 17:51:32.936 HYPERVISOR: exec_cmd: ethsw set_access_port SK/MANCOM/BCPC udp-810c9cc6-6c02-48b1-9af9-d55978cc1ae1 1 
+Jan 04 17:51:33.000 HYPERVISOR: exec_cmd: nio create_udp udp-dd76186d-5662-4220-b464-0e9425321fbc 10093 127.0.0.1 10092 
+Jan 04 17:51:33.000 HYPERVISOR: exec_cmd: ethsw add_nio SK/MANCOM/BCPC udp-dd76186d-5662-4220-b464-0e9425321fbc 
+Jan 04 17:51:33.030 HYPERVISOR: exec_cmd: ethsw set_access_port SK/MANCOM/BCPC udp-dd76186d-5662-4220-b464-0e9425321fbc 1 
+Jan 04 17:51:33.084 HYPERVISOR: exec_cmd: nio create_udp udp-e3432fea-a1a7-4777-9ec0-e818cd6d6bef 10094 127.0.0.1 10095 
+Jan 04 17:51:33.085 HYPERVISOR: exec_cmd: ethsw add_nio SK/MANCOM/BCPC udp-e3432fea-a1a7-4777-9ec0-e818cd6d6bef 
+Jan 04 17:51:33.092 HYPERVISOR: exec_cmd: ethsw set_access_port SK/MANCOM/BCPC udp-e3432fea-a1a7-4777-9ec0-e818cd6d6bef 1 
+Jan 04 17:51:37.763 HYPERVISOR: exec_cmd: ethsw delete SK/MANCOM/BCPC 
+Jan 04 17:51:38.091 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 04 17:51:38.511 HYPERVISOR: Stopped.
+Jan 04 17:51:38.511 GENERAL: reset done.
